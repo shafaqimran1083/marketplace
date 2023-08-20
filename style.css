@@ -130,6 +130,7 @@ input[type="button"] {
     background-color: #61B846;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 .button0{
     margin-left: 20px !important;
