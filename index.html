@@ -6,7 +6,6 @@
     <title>Saylaani Marketplace</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
     <div class="getstarted">
@@ -14,9 +13,17 @@
         <h1>SAYLANI WELFARE</h1>
         <h3>ONLINE DISCOUNT STORE</h3>
         <form>
-            <button onclick="Signup.html" class="button"></button>
-<!--             <input class="button" type="button" value="Get Started"></a> -->
+            <input type="button" id="getStartedButton" value="Get Started">
         </form>
     </div>
+
+    <script>
+        // JavaScript code to handle button click event
+        const getStartedButton = document.getElementById('getStartedButton');
+        getStartedButton.addEventListener('click', function() {
+            // Redirect the user to the signup page
+            window.location.href = 'signup.html';
+        });
+    </script>
 </body>
 </html>
