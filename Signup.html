@@ -6,7 +6,15 @@
     <title>Saylaani Marketplace</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function goToCartPage() {
+            window.location.href = "cart.html";
+        }
 
+        function goToSignUpPage() {
+            window.location.href = "signup.html";
+        }
+    </script>
 </head>
 <body>
     <div class="signup-box">
@@ -21,9 +29,9 @@
             <i class="fa fa-envelope icon"></i>
             <input class="input-box" type="password" placeholder="Password">
             <i class="fa fa-key icon"></i>
-            <input class="button0" type="button" value="Sign Up">
+            <input class="button0" type="button" value="Sign Up" onclick="goToCartPage()">
         </form>
-        <p class="para-2">Already have an account? <a href="Sign in.html" class="Login">Login</a></p>
+        <p class="para-2">Already have an account? <a href="login.html" class="Login" onclick="goToSignUpPage()">Login</a></p>
     </div>
 </body>
 </html>
