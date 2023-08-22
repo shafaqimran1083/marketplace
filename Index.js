@@ -1,11 +1,13 @@
-// script.js
+const signupButton = document.getElementById('getStartedButton');
+const loginButton = document.getElementById('loginButton');
 
-// Redirect to the cart page on GitHub Pages
 signupButton.addEventListener('click', function() {
     window.location.href = 'cart.html';
 });
 
-// Redirect to the sign-in page on GitHub Pages
+loginButton.addEventListener('click', function() {
+    window.location.href = 'signin.html';
+});
 loginButton.addEventListener('click', function() {
     window.location.href = 'signin.html';
 });
